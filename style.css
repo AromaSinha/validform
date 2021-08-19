@@ -1,0 +1,55 @@
+body{
+    background-image: url(https://source.unsplash.com/1900x900/?nature);
+     background-size: cover;
+}
+.container-fluid{
+    width:50%;
+    background-color: rgb(250, 250, 250);
+    padding:3rem;
+    justify-content: center;
+    border-radius: 1rem;
+    box-shadow:  15px 13px 18px rgb(0, 0, 0);
+}
+.container-fluid h2{
+    text-align: center;
+}
+.container-fluid h2:hover{
+   color:white;
+}
+.container-fluid:hover{
+    background-color: rgb(255, 176, 7);
+     
+}
+.form-check1  {
+    display:inline-block ;
+}
+.form-check  {
+    display:inline-block ;
+}
+.formerror{
+    color:red;
+}
+.btn a{
+    text-decoration: none;
+    color:white;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(255, 208, 1); /* Set a background color */
+    color: rgb(0, 0, 0); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 30px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255); /* Add a dark-grey background on hover */
+  }
